@@ -469,8 +469,8 @@ footer p:nth-of-type(3) {
     }
 
     .billeder img {
-        width: 450px;
-        height: 570px;
+        width: 320px;
+        height: 550px;
         object-fit: cover;
         margin: 40px 15px 35px;
     }
