@@ -14,35 +14,34 @@
 
   <body class="body-hp">
 
-    <header>
+     <header>
       <nav>
         <div class="logo">
           <a href="./Index.html"
-
-            ><img src="./Assets/Photos/logo.jpg" alt="logoSkulpturparken"/>
-        </a>
-       
+            ><img src="./Assets/Photos/logo.jpg" alt="logoSkulpturparken"
+          /></a>
         </div>
-
-        <!-- burgermenu -->
         <div class="dropdown">
           <button><i class="fa-solid fa-bars"></i></button>
           <div class="dropdown-content">
-            <button><a href="./Magisk-jul.html">Magisk Jul</a></button>
-            <button><a href="./events.html">Begivenheder</a></button>
-            <button><a href="./cafe.html">Cafe og Orangeri</a></button>
-            <button><a href="./info.html">Praktisk info</a></button>
+            <a href="./Magisk-jul.html">Magisk Jul</a>
+            <a href="./events.html">Begivenheder</a>
+            <a href="./cafe.html">Cafe og Orangeri</a>
+            <a href="./info.html">Praktisk info</a>
           </div>
+        </div>
+        <div class="desktopNav">
+          <h2><a href="./Magisk-jul.html">Magisk Jul</a></h2>
+          <h2><a href="./events.html">Begivenheder</a></h2>
+          <h2><a href="./cafe.html">Cafe og Orangeri</a></h2>
+          <h2><a href="./info.html">Praktisk info</a></h2>
         </div>
       </nav>
     </header>
-
-    
-
     <main class="Homepage">
       <img
         class="img-hp"
-        src="./Assets/Photos/Billeder/desktop billeder/Hero,billede.jpg"
+        src="./Assets/Photos/Billeder/desktopbilleder/Hero,billede.jpg"
         alt=""
       />
       <section class="magisk-jul-hp-intro">
@@ -61,49 +60,47 @@
           <li>Lyd- &lysshow</li>
           <li>Legeområder for børn</li>
         </ul>
+      <section class="cards-section"></section>
+        <!-- Card 1 -->
+        <div class="card">
+          <div class="card-content">
+            <h2>Åbnings Ceremonien</h2>
+            <div class="flex-container">
+              <p>
+                Åbningsprogram lørdag 2. nov. fra kl. 15.00 Fri entré 2. nov.
+                mellem kl. 15-16 for gæster iført nissehue.
+              </p>
+              <a href="./Magisk-jul.html" class="knappe-hp"> Læs mere</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+          <div class="card-content">
+            <h2>Åbningdtider</h2>
+            <div class="flex-container">
+              <p>
+                Åbent onsdag - søndag kl. 15-20 Fra 2. november - 29. december.
+              </p>
+              <a href="./info.html" class="knappe-hp">Læs mere</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+          <div class="card-content">
+            <h2>Billetter</h2>
+            <div class="flex-container">
+              <p>
+                Billetkøb voksne: kr. 150,- Billetkøb børn (3-12 år): kr. 75,-
+              </p>
+              <a href="./info.html" class="knappe-hp">Læs mere</a>
+            </div>
+          </div>
+        </div>
       </section>
-      <!-- Cards - ændre gerne class til noget i kan bruge ( hp står for homepage )-->
-
-      <!-- Card 1 -->
-      <div class="card">
-        <div class="card-content">
-          <h2>Åbnings Ceremonien</h2>
-          <div class="flex-container">
-            <p>
-              Åbningsprogram lørdag 2. nov. fra kl. 15.00 Fri entré 2. nov.
-              mellem kl. 15-16 for gæster iført nissehue.
-            </p>
-            <a href="./Magisk-jul.html" class="knappe-hp">Læs mere</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="card">
-        <div class="card-content">
-          <h2>Åbningdtider</h2>
-          <div class="flex-container">
-            <p>
-              Åbent onsdag - søndag kl. 15-20 Fra 2. november - 29. december.
-            </p>
-            <a href="./info.html" class="knappe-hp">Læs mere</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="card">
-        <div class="card-content">
-          <h2>Billetter</h2>
-          <div class="flex-container">
-            <p>
-              Billetkøb voksne: kr. 150,- Billetkøb børn (3-12 år): kr. 75,-
-            </p>
-            <a href="./info.html" class="knappe-hp">Læs mere</a>
-          </div>
-        </div>
-      </div>
-
       <section class="åbnings-ceremonien-hp">
         <h2>Åbnings Ceremonien</h2>
         <p id="nov2">Åbningsprogram lørdag 2. nov. fra kl. 15.00</p>
@@ -123,7 +120,7 @@
         <a id="læs-mere" href="#">Læs mere</a>
         <img
           class="ceremoni-billede"
-          src="./Assets/Photos/Billeder/mobile billeder/billede-til-åbnings-ceremonien.jpg"
+          src="./Assets/Photos/Billeder/desktopbilleder/billede-til-åbnings-ceremonien.jpg"
           alt=""
         />
       </section>
@@ -147,7 +144,7 @@
         <a id="læs-mere-magisk" href="#">Læs mere</a>
         <img
           class="magisk-jul-img"
-          src="./Assets/Photos/Billeder/mobile billeder/jule tunlen.jpg"
+          src="./Assets/Photos/Billeder/desktopbilleder/jule-tunlen.jpg"
           alt=""
         />
       </section>
@@ -165,7 +162,7 @@
 
         <img
           class="buffet-billede"
-          src="./Assets/Photos/Billeder/desktop billeder/buffetbillede-til-cafe-siden.jpeg"
+          src="./Assets/Photos/Billeder/desktopbilleder/buffetbillede-til-cafe-siden.jpeg"
           alt=""
         />
       </section>
