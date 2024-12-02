@@ -33,6 +33,7 @@ h6 {
 body {
     margin: 0;
 }
+
 /* Magisk Jul*/
 
 /*nav*/
@@ -97,7 +98,7 @@ nav {
     color: #f9f9f9;
     text-shadow: black 10px 6px 30px;
     position: absolute;
-    transform: translate(0%, -30%);
+    transform: translate(-10%, -20%);
 }
 
 /*intro*/
@@ -469,8 +470,8 @@ footer p:nth-of-type(3) {
     }
 
     .billeder img {
-        width: 450px;
-        height: 570px;
+        width: 320px;
+        height: 550px;
         object-fit: cover;
         margin: 40px 15px 35px;
     }
